@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quiz.css" />
+    <title>Quiz-Page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="quiz">
+        <div class="quiz_header">
+          <div class="quiz_user">
+            <h4>WELCOME ! <span class="name"></span></h4>
+          </div>
+      </div>
+
+      <div class="quiz_body">
+        <div id="questions">
+          <ul class="option_group">
+            <li class="option">option 1</li>
+            <li class="option">option 2</li>
+            <li class="option">option 3</li>
+            <li class="option">option 4</li>
+          </ul>
+        </div>
+        <button class="btn-next" onclick="next()">Próxima Questão</button>
+      </div>
+    </div>
+
+    <script src="quiz.js"></script>
+    <script src="user_info.js"></script>
+  </body>
+</html>
